@@ -56,6 +56,7 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src={ noCount === 0  ? "https://tenor.com/view/shakespaw-gif-1400587432665718894.gif" : getImageUrl()}
             />
+            <h1>Hi {VITE_NAME}</h1>
             <h1 className="text-container">Will you be my Valentine?</h1>
             <div className="button-container">
               <button
